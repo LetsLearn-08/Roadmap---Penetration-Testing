@@ -16,7 +16,8 @@ Welcome to my personal roadmap into the world of penetration testing. I'm a BCA 
 - [🧰 Tools Explored](#-tools-explored)
 - [📚 Resources](#-resources)
 - [📬 Connect](#-connect)
-- [✍️ Programming Language](#-programming-language) 
+- [✍️ Programming Languages (Learn As You Go)](#️programming-languages-learn-as-you-go)
+
 
 ---
 
@@ -72,7 +73,7 @@ Notes and experiments with pentesting tools:
 
 ## ✍️ Programming Languages (Learn As You Go)
 
-- 🐍 [**Python**](-programming-language/notes/python.md) – For scripting, automation, exploit dev, and tool creation.
+- 🐍 [**Python**](notes/python.md) – For scripting, automation, exploit dev, and tool creation.
 - 🖥️ [**Bash**](notes/bash.md) – For shell scripting, Linux automation, and command chaining.
 - 🌐 [**JavaScript**](notes/javascript.md) – For web pentesting, especially XSS and client-side logic.
 - 🛢️ [**SQL**](notes/sql.md) – For database enumeration and SQL injection (SQLi) attacks.
