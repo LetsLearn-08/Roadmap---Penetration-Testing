@@ -72,7 +72,7 @@ Notes and experiments with pentesting tools:
 
 ## ✍️ Programming Languages (Learn As You Go)
 
-- 🐍 [**Python**](notes/python.md) – For scripting, automation, exploit dev, and tool creation.
+- 🐍 [**Python**](-programming-language/notes/python.md) – For scripting, automation, exploit dev, and tool creation.
 - 🖥️ [**Bash**](notes/bash.md) – For shell scripting, Linux automation, and command chaining.
 - 🌐 [**JavaScript**](notes/javascript.md) – For web pentesting, especially XSS and client-side logic.
 - 🛢️ [**SQL**](notes/sql.md) – For database enumeration and SQL injection (SQLi) attacks.
