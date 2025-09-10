@@ -1,5 +1,5 @@
-# Roadmap---Penetration-Testing
-A curated roadmap and weekly learning journal documenting my journey into penetration testing. Built with passion, updated with dedication.
+# Roadmap---Penetration-Testing  
+*A curated roadmap and weekly learning journal documenting my journey into penetration testing. Built with passion, updated with dedication.*
 
 ---
 
@@ -11,13 +11,12 @@ Welcome to my personal roadmap into the world of penetration testing. I'm a BCA 
 
 ## 📚 Table of Contents
 
-- [🚀 Roadmap](#-roadmap)
-- [🗓 Weekly Journal](#-weekly-journal)
-- [🧰 Tools Explored](#-tools-explored)
-- [📚 Resources](#-resources)
-- [📬 Connect](#-connect)
-- [✍️ Programming Languages (Learn As You Go)](#️programming-languages-learn-as-you-go)
-
+- [🚀 Roadmap](#️-rocket-roadmap)
+- [🗓 Weekly Journal](#️-calendar-weekly-journal)
+- [🧰 Tools Explored](#️-toolbox-tools-explored)
+- [📚 Resources](#️-books-resources)
+- [📬 Connect](#️-connect)
+- [✍️ Programming Languages (Learn As You Go)](#️-writing-hand-programming-languages-learn-as-you-go)
 
 ---
 
@@ -25,7 +24,7 @@ Welcome to my personal roadmap into the world of penetration testing. I'm a BCA 
 
 Explore the structured learning path:
 
-- [`phase 1 - Basics`](roadmap/phase-1-basics.md)  
+- [`Phase 1 – Basics`](roadmap/phase-1-basics.md)  
   *OS fundamentals, Linux commands, basic scripting*
 
 - [`Phase 2 – Networking`](roadmap/phase-2-networking.md)  
@@ -71,13 +70,15 @@ Notes and experiments with pentesting tools:
 - [Practice Labs](Practice-Labs/offline-labs.md) – Offline vulnerable machines and setups  
 - [Practice Tasks](Practice-Labs/task-checklist.md) – Checklist for hands-on practice
 
+---
+
 ## ✍️ Programming Languages (Learn As You Go)
 
-- 🐍 [**Python**](notes/python.md) – For scripting, automation, exploit dev, and tool creation.
-- 🖥️ [**Bash**](notes/bash.md) – For shell scripting, Linux automation, and command chaining.
-- 🌐 [**JavaScript**](notes/javascript.md) – For web pentesting, especially XSS and client-side logic.
-- 🛢️ [**SQL**](notes/sql.md) – For database enumeration and SQL injection (SQLi) attacks.
-- 🧬 [**Assembly (x86/x64)**](notes/assembly.md) – For reverse engineering, exploit writing.
+- 🐍 [**Python**](notes/python.md) – For scripting, automation, exploit dev, and tool creation.  
+- 🖥️ [**Bash**](notes/bash.md) – For shell scripting, Linux automation, and command chaining.  
+- 🌐 [**JavaScript**](notes/javascript.md) – For web pentesting, especially XSS and client-side logic.  
+- 🛢️ [**SQL**](notes/sql.md) – For database enumeration and SQL injection (SQLi) attacks.  
+- 🧬 [**Assembly (x86/x64)**](notes/assembly.md) – For reverse engineering, exploit writing.  
 - 🛠️ [**Go / Rust**](notes/go_rust.md) *(Optional/Advanced)* – For red teaming and tool development.
 
 > 🔁 Start with **Python + Bash + SQL**, then expand based on your focus (web, reverse engineering, or red teaming).
@@ -88,4 +89,5 @@ Notes and experiments with pentesting tools:
 
 Feel free to suggest improvements, share your own journey, or collaborate.  
 This repo is a reflection of my dedication to learning and growing in cybersecurity.
-LetsLearnTogether...
+Lets Learn Together...
+
