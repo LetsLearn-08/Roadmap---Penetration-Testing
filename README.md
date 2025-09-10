@@ -70,6 +70,16 @@ Notes and experiments with pentesting tools:
 - [Practice Labs](Practice-Labs/offline-labs.md) – Offline vulnerable machines and setups  
 - [Practice Tasks](Practice-Labs/task-checklist.md) – Checklist for hands-on practice
 
+## ✍️ Programming Languages (Learn As You Go)
+
+- 🐍 **Python** – For scripting, automation, exploit dev, and tool creation.
+- 🖥️ **Bash** – For shell scripting, Linux automation, and command chaining.
+- 🌐 **JavaScript** – For web pentesting, especially XSS and client-side logic.
+- 🛢️ **SQL** – For database enumeration and SQL injection (SQLi) attacks.
+- 🧬 **Assembly (x86/x64)** – For reverse engineering, exploit writing.
+- 🛠️ **Go / Rust** *(Optional/Advanced)* – For red teaming and tool development.
+
+> 🔁 Start with **Python + Bash + SQL**, then expand based on your focus (web, binary, red teaming, etc.)
 
 ---
 
