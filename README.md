@@ -64,12 +64,11 @@ Notes and experiments with pentesting tools:
 
 ## 📚 Resources
 
-Curated learning materials:
+- [Books](Resources/books.md) – Recommended pentesting books  
+- [Tools](Tools/tools.md) – Tools explored with brief descriptions  
+- [Practice Labs](Practice-Labs/offline-labs.md) – Offline vulnerable machines and setups  
+- [Practice Tasks](Practice-Labs/task-checklist.md) – Checklist for hands-on practice
 
-- [`Books`](resources/books.md) – Recommended reading  
-- [`Websites`](resources/websites.md) – Blogs, forums, learning platforms  
-- [`Videos`](resources/videos.md) – YouTube channels and courses  
-- [`Cheat Sheets`](resources/cheat-sheets.md) – Quick reference guides
 
 ---
 
