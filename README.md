@@ -23,7 +23,7 @@ Welcome to my personal roadmap into the world of penetration testing. I'm a BCA 
 
 Explore the structured learning path:
 
-- [`Phase 1 – Basics`](roadmap/phase-1-basics.md)  
+- [`phase 1 - Basics`](roadmap/phase-1-basics.md)  
   *OS fundamentals, Linux commands, basic scripting*
 
 - [`Phase 2 – Networking`](roadmap/phase-2-networking.md)  
