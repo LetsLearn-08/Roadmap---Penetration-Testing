@@ -72,23 +72,14 @@ Notes and experiments with pentesting tools:
 
 ## ✍️ Programming Languages (Learn As You Go)
 
-## 🛣️ Pentester Journey Roadmap
+- 🐍 [**Python**](notes/python.md) – For scripting, automation, exploit dev, and tool creation.
+- 🖥️ [**Bash**](notes/bash.md) – For shell scripting, Linux automation, and command chaining.
+- 🌐 [**JavaScript**](notes/javascript.md) – For web pentesting, especially XSS and client-side logic.
+- 🛢️ [**SQL**](notes/sql.md) – For database enumeration and SQL injection (SQLi) attacks.
+- 🧬 [**Assembly (x86/x64)**](notes/assembly.md) – For reverse engineering, exploit writing.
+- 🛠️ [**Go / Rust**](notes/go_rust.md) *(Optional/Advanced)* – For red teaming and tool development.
 
-- 🐍 **[Python](https://docs.python.org/3/)** – For scripting, automation, exploit dev, and tool creation.  
-  → Learn: [Python for Pentesters (HackTricks)](https://book.hacktricks.xyz/pentesting-web/python-for-pentesters)
-
-- 🖥️ **[Bash](https://www.gnu.org/software/bash/manual/)** – For shell scripting, Linux automation, and command chaining.  
-  → Learn: [Bash Scripting Tutorial (Ryan's Tutorials)](https://ryanstutorials.net/bash-scripting-tutorial/)
-
-- 🌐 **[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)** – For web pentesting, especially XSS and client-side logic.  
-  → Learn: [JavaScript Security (PortSwigger)](https://portswigger.net/web-security/cross-site-scripting)
-
-- 🛢️ **[SQL](https://www.w3schools.com/sql/)** – For database enumeration and SQL injection (SQLi) attacks.  
-  → Learn: [SQL Injection (PortSwigger)](https://portswigger.net/web-security/sql-injection)
-
-- 🧬 **[Assembly (x86/x64)](https://cs.lmu.edu/~ray/notes/x86assembly/)** – For reverse engineering, exploit writing.
-
-> 🔁 Start with **Python + Bash + SQL**, then expand based on your focus (web, binary, red teaming, etc.)
+> 🔁 Start with **Python + Bash + SQL**, then expand based on your focus (web, reverse engineering, or red teaming).
 
 ---
 
