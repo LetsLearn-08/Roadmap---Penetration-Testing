@@ -73,7 +73,7 @@ Notes and experiments with pentesting tools:
 - [`Metasploit`](tools/metasploit/overview.md) – Exploitation framework  
 - [`Wireshark`](tools/wireshark/overview.md) – Packet analysis and sniffing  
 - [`Nessus`](tools/nessus/overview.md) – Vulnerability assessment and compliance scanning  
-- [`Nikto`](tools/nikto/overview.md) – Web server scanning for misconfigurations and vulnerabilities  
+- [`Netcat`](tools/netcat/overview.md) – Command-line utility that reads and writes data across network 
 - [`SET`](tools/set/overview.md) – Social engineering attacks and phishing simulations  
 - [`Placeholder`](tools/placeholder.md) – For future tools I’ll discover
 
