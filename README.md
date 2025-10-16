@@ -14,9 +14,10 @@ Welcome to my personal cybersecurity lab! This repo documents my journey as a BC
 - [Wireshark Cheatsheet](./wireshark-cheatsheet/README.md)
 - [Metasploit Lab](./metasploit-lab/README.md)
 - [Nmap Scans](./nmap-scans/README.md)
-- [Burp Suite Notes](./burp-suite-notes/README.md)
+- [Netcat](tools/netcat/overview.md) 
 - [Kali Linux Setup](./kali-linux-setup/README.md)
 - [Markdown Templates](./markdown-templates/README.md)
+- 
 
 ## 🤝 Connect
 
