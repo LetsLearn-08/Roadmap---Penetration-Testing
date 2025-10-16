@@ -16,6 +16,7 @@ This subproject documents the setup of a penetration testing lab using Kali Linu
 - [`kali-install.md`](markdown/kali-install.md): Step-by-step Kali VM setup
 - [`host-only-networking.md`](markdown/host-only-networking.md): Networking config guide
 - [`troubleshooting.md`](markdown/troubleshooting.md): Common setup issues and fixes
+-  [`status.md`](markdown/status.md): Current lab progress and next steps
 
 ## 🎯 Goals
 - Build a stable lab for scanning, enumeration, and exploitation
