@@ -39,13 +39,13 @@ The TCP/IP model is the backbone of modern networking. Understanding it is essen
 
 ## 🧪 Sample Wireshark Filters
 
-\`\`\`plaintext
+```plaintext
 tcp.port == 80                     # HTTP traffic  
 udp.port == 53                     # DNS queries  
 icmp.type == 8                     # Echo requests  
 arp                                # ARP packets  
 ip.addr == 192.168.1.10            # Filter by IP address
-\`\`\`
+```
 
 ---
 
@@ -70,7 +70,7 @@ ip.addr == 192.168.1.10            # Filter by IP address
 
 ## 🔧 Example commands
 
-\`\`\`bash
+```bash
 # TCP SYN scan and service detection
 nmap -sS -sV -p- 192.168.1.0/24
 
@@ -85,7 +85,7 @@ tshark -i eth0 -w capture.pcap
 
 # Quick Wireshark filter to show HTTP and DNS
 (tcp.port == 80) || (udp.port == 53)
-\`\`\`
+```
 
 ---
 
