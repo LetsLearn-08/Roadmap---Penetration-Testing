@@ -106,56 +106,83 @@ This document outlines hands-on Nmap scanning techniques performed in a controll
 
 ---
 
-
----
-
 ## 🔍 Scan Modules
 
 ### 1. Basic Host Discovery
 - **Command**: `nmap -sn <target-ip>`
 - **Purpose**: Checks which hosts are up (ping scan)
-- **Save Screenshot**: `screenshots/basic-host-discovery.png`
-- **Log Output**: `scans/basic/scan.md`
+- ### Step 1: Ping Sweep
+Command: `nmap -sn 192.168.56.0/24`
+Goal: Identify live hosts in subnet
+![ping_sweep.png](screenshots/ping_sweep.png)
+
 
 ---
 
 ### 2. Full Port Scan
 - **Command**: `nmap -p- <target-ip>`
 - **Purpose**: Scans all 65535 TCP ports
-- **Save Screenshot**: `screenshots/full-port-scan.png`
-- **Log Output**: `scans/basic/scan.md`
+-  Command: `nmap -p- 192.168.56.101`
+Goal: Scan all TCP ports
+![full_port_scan.png](screenshots/full_port_scan.png)
 
 ---
 
 ### 3. Service & Version Detection
 - **Command**: `nmap -sV <target-ip>`
 - **Purpose**: Identifies services and their versions
-- **Save Screenshot**: `screenshots/service-version.png`
-- **Log Output**: `scans/service-version/scan.md`
+- Command: `nmap -sV 192.168.56.101`
+Goal: Identify software versions
+![version_scan.png](screenshots/version_scan.png)
+
 
 ---
 
 ### 4. OS Detection
 - **Command**: `nmap -O <target-ip>`
 - **Purpose**: Guesses the OS based on TCP/IP fingerprinting
-- **Save Screenshot**: `screenshots/os-detection.png`
-- **Log Output**: `scans/OS-detection/scan.md`
+- Command: `sudo nmap -O 192.168.56.101`
+Goal: Guess target OS
+![os_detection.png](screenshots/os_detection.png)
+
 
 ---
 
 ### 5. Aggressive Scan
 - **Command**: `nmap -A <target-ip>`
 - **Purpose**: Combines OS detection, version detection, script scan, and traceroute
-- **Save Screenshot**: `screenshots/aggressive-scan.png`
-- **Log Output**: `scans/aggressive/scan.md`
-
+- Command: `sudo nmap -A 192.168.56.101`
+Goal: Deep scan with multiple techniques
+![aggressive_scan.png](screenshots/aggressive_scan.png)
 ---
 
 ### 6. NSE Script Scan
 - **Command**: `nmap --script vuln <target-ip>`
 - **Purpose**: Runs vulnerability detection scripts
-- **Save Screenshot**: `screenshots/nse-vuln-scan.png`
-- **Log Output**: `scans/custom-scripts/scan.md`
+### Step 1: List NSE Scripts
+Command: `ls /usr/share/nmap/scripts/`
+Goal: View available NSE scripts
+![nse_list.png](screenshots/nse_list.png)
+### Step 2: Default NSE Scripts
+Command: `nmap -sC 192.168.56.101`
+Goal: Run default safe scripts
+![default_scripts.png](screenshots/default_scripts.png)
+### Step 3: FTP Anonymous Login Check
+Command: `nmap --script ftp-anon 192.168.56.101 -p 21`
+Goal: Test for anonymous FTP access
+![ftp_anon.png](screenshots/ftp_anon.png)
+### Step 4: Vulnerability Scan
+Command: `nmap --script vuln 192.168.56.101`
+Goal: Detect known vulnerabilities
+![vuln_scan.png](screenshots/vuln_scan.png)
+### Step 5: Script Categories
+Command: `nmap --script "default,safe" 192.168.56.101`
+Goal: Run grouped scripts safely
+![script_categories.png](screenshots/script_categories.png)
+### Step 6: Save Script Output
+Command: `nmap --script vuln 192.168.56.101 -oN vuln_scan.txt`
+Goal: Export scan results
+![vuln_output.png](screenshots/vuln_output.png)
 
 ---
 
