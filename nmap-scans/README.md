@@ -191,56 +191,30 @@ This section contains organized screenshots from my Nmap lab module, executed in
 | Ping Sweep             | `ping-sweep.png`                                                             | Identifies live hosts in the target subnet   |
 | OS Detection           | `os-det-1.png`, `os-det-2.png`                                               | Detects operating system of target machines  |
 | Service Version Scan   | `svs-1.png`, `svs-2.png`, `svs-3.png`, `svs-4.png`                           | Reveals running services and versions        |
-| Aggressive Scan        | `agg-scan-1.png` to `agg-scan-4.png`                                         | Combines multiple detection techniques       |
-| Full Port Scan         | `full-portscan-1.png`, `full-portscan-2.png`, `full-portscan-3.png`          | Scans all 65535 ports on the target          |
-| NSE Scripts            | `nse-script-1.1.png`, `1.2.png`, `1.3.png`, `3.png`, `4.1.png`, `4.2.png`, `5.1.png`, `5.2.png`, `6.png`, `7.2.png`, `7.3.png`, `7.4.png` | Executes specific NSE modules for deeper analysis |
+| Aggressive Scan        | `agg-scan-1.png`, `agg-scan-2.png`, `agg-scan-3.png`, `agg-scan-4.png`       | Combines multiple detection techniques       |
+| Full Port Scan         | `full-portscan-1.png`, `full-portscan-2.png`, `full-portscan-3.png`, `full-portscan-4.png` | Scans all 65535 ports on the target          |
+| Nmap Scan Series       | `nmap-scan-1.png`, `nmap-scan-2.png`, `nmap-scan-3.png`                      | General scan outputs for reference           |
+| NSE Scripts            | `nse-script-1.1.png`, `nse-script-1.2.png`, `nse-script-1.3.png`, `nse-script-2.1.png`, `nse-script-2.2.png`, `nse-script-2.3.png`, `nse-script-2.4.png`, `nse-script-3.png`, `nse-script-4.1.png`, `nse-script-4.2.png`, `nse-script-5.1.png`, `nse-script-5.2.png`, `nse-script-6.png`, `nse-script-7.1.png`, `nse-script-7.2.png`, `nse-script-7.3.png`, `nse-script-7.4.png` | Executes specific NSE modules for deeper analysis |
 
 ---
 
-### 🖼️ Embedded Screenshots
 
-#### 🔍 Ping Sweep  
-![Ping Sweep](./screenshots/nmap-lab/ping-sweep.png)
+All screenshots are stored in the [screenshots/nmap-lab](https://github.com/LetsLearn-08/Roadmap---Penetration-Testing/tree/main/screenshots/nmap-lab) folder.
 
-#### 🧠 OS Detection  
-![OS Detection 1](./screenshots/nmap-lab/os-det-1.png)  
-![OS Detection 2](./screenshots/nmap-lab/os-det-2.png)
 
-#### 📦 Service Version Detection  
-![Service Version 1](./screenshots/nmap-lab/svs-1.png)  
-![Service Version 2](./screenshots/nmap-lab/svs-2.png)  
-![Service Version 3](./screenshots/nmap-lab/svs-3.png)  
-![Service Version 4](./screenshots/nmap-lab/svs-4.png)
+## 📝 Notes
 
-#### 🚀 Aggressive Scan  
-![Aggressive Scan 1](./screenshots/nmap-lab/agg-scan-1.png)  
-![Aggressive Scan 2](./screenshots/nmap-lab/agg-scan-2.png)  
-![Aggressive Scan 3](./screenshots/nmap-lab/agg-scan-3.png)  
-![Aggressive Scan 4](./screenshots/nmap-lab/agg-scan-4.png)
+- All scans were performed in a VirtualBox lab setup.
+- Target machine: Metasploitable2
+- Tool used: Nmap with various flags and NSE scripts
+- Screenshots are organized by scan type and timestamp
 
-#### 🔁 Full Port Scan  
-![Full Port Scan 1](./screenshots/nmap-lab/full-portscan-1.png)  
-![Full Port Scan 2](./screenshots/nmap-lab/full-portscan-2.png)  
-![Full Port Scan 3](./screenshots/nmap-lab/full-portscan-3.png)
+---
 
-#### 🧩 NSE Script Results  
-![NSE Script 1.1](./screenshots/nmap-lab/nse-script-1.1.png)  
-![NSE Script 1.2](./screenshots/nmap-lab/nse-script-1.2.png)  
-![NSE Script 1.3](./screenshots/nmap-lab/nse-script-1.3.png)  
-![NSE Script 2.1](./screenshots/nmap-lab/nse-script-2.1.png)  
-![NSE Script 2.2](./screenshots/nmap-lab/nse-script-2.2.png)  
-![NSE Script 2.3](./screenshots/nmap-lab/nse-script-2.3.png)  
-![NSE Script 2.4](./screenshots/nmap-lab/nse-script-2.4.png)  
-![NSE Script 3](./screenshots/nmap-lab/nse-script-3.png)  
-![NSE Script 4.1](./screenshots/nmap-lab/nse-script-4.1.png)  
-![NSE Script 4.2](./screenshots/nmap-lab/nse-script-4.2.png)  
-![NSE Script 5.1](./screenshots/nmap-lab/nse-script-5.1.png)  
-![NSE Script 5.2](./screenshots/nmap-lab/nse-script-5.2.png)  
-![NSE Script 6](./screenshots/nmap-lab/nse-script-6.png)  
-![NSE Script 7.1](./screenshots/nmap-lab/nse-script-7.1.png)  
-![NSE Script 7.2](./screenshots/nmap-lab/nse-script-7.2.png)  
-![NSE Script 7.3](./screenshots/nmap-lab/nse-script-7.3.png)  
-![NSE Script 7.4](./screenshots/nmap-lab/nse-script-7.4.png)
+## 📢 Connect
+
+This repo is part of my cybersecurity learning journey.  
+Follow me on [LinkedIn](https://www.linkedin.com/) for updates and lab walkthroughs.
 
 
 ---
