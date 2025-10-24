@@ -114,8 +114,6 @@ This document outlines hands-on Nmap scanning techniques performed in a controll
 - ### Step 1: Ping Sweep
 Command: `nmap -sn 192.168.56.0/24`
 Goal: Identify live hosts in subnet
-![ping_sweep.png](screenshots/ping_sweep.png)
-
 
 ---
 
@@ -124,7 +122,6 @@ Goal: Identify live hosts in subnet
 - **Purpose**: Scans all 65535 TCP ports
 -  Command: `nmap -p- 192.168.56.101`
 Goal: Scan all TCP ports
-![full_port_scan.png](screenshots/full_port_scan.png)
 
 ---
 
@@ -133,8 +130,6 @@ Goal: Scan all TCP ports
 - **Purpose**: Identifies services and their versions
 - Command: `nmap -sV 192.168.56.101`
 Goal: Identify software versions
-![version_scan.png](screenshots/version_scan.png)
-
 
 ---
 
@@ -143,8 +138,6 @@ Goal: Identify software versions
 - **Purpose**: Guesses the OS based on TCP/IP fingerprinting
 - Command: `sudo nmap -O 192.168.56.101`
 Goal: Guess target OS
-![os_detection.png](screenshots/os_detection.png)
-
 
 ---
 
@@ -153,7 +146,7 @@ Goal: Guess target OS
 - **Purpose**: Combines OS detection, version detection, script scan, and traceroute
 - Command: `sudo nmap -A 192.168.56.101`
 Goal: Deep scan with multiple techniques
-![aggressive_scan.png](screenshots/aggressive_scan.png)
+
 ---
 
 ### 6. NSE Script Scan
@@ -162,29 +155,102 @@ Goal: Deep scan with multiple techniques
 ### Step 1: List NSE Scripts
 Command: `ls /usr/share/nmap/scripts/`
 Goal: View available NSE scripts
-![nse_list.png](screenshots/nse_list.png)
+
 ### Step 2: Default NSE Scripts
 Command: `nmap -sC 192.168.56.101`
 Goal: Run default safe scripts
-![default_scripts.png](screenshots/default_scripts.png)
+
 ### Step 3: FTP Anonymous Login Check
 Command: `nmap --script ftp-anon 192.168.56.101 -p 21`
 Goal: Test for anonymous FTP access
-![ftp_anon.png](screenshots/ftp_anon.png)
+
 ### Step 4: Vulnerability Scan
 Command: `nmap --script vuln 192.168.56.101`
 Goal: Detect known vulnerabilities
-![vuln_scan.png](screenshots/vuln_scan.png)
+
 ### Step 5: Script Categories
 Command: `nmap --script "default,safe" 192.168.56.101`
 Goal: Run grouped scripts safely
-![script_categories.png](screenshots/script_categories.png)
+
 ### Step 6: Save Script Output
 Command: `nmap --script vuln 192.168.56.101 -oN vuln_scan.txt`
 Goal: Export scan results
-![vuln_output.png](screenshots/vuln_output.png)
+
 
 ---
+## 🧪 Nmap Lab Module – Screenshot Documentation
+
+This section contains organized screenshots from my Nmap lab module, executed in Kali Linux against Metasploitable2. Each image corresponds to a specific scan type or NSE script execution.
+
+---
+
+### 📁 Screenshot Index
+
+| Scan Type               | Filename(s)                                                                 | Description                                  |
+|------------------------|------------------------------------------------------------------------------|----------------------------------------------|
+| Ping Sweep             | `ping-sweep.png`                                                             | Identifies live hosts in the target subnet   |
+| OS Detection           | `os-det-1.png`, `os-det-2.png`                                               | Detects operating system of target machines  |
+| Service Version Scan   | `svs-1.png`, `svs-2.png`, `svs-3.png`, `svs-4.png`                           | Reveals running services and versions        |
+| Aggressive Scan        | `agg-scan-1.png` to `agg-scan-4.png`                                         | Combines multiple detection techniques       |
+| Full Port Scan         | `full-portscan-1.png`, `full-portscan-2.png`, `full-portscan-3.png`          | Scans all 65535 ports on the target          |
+| NSE Scripts            | `nse-script-1.1.png`, `1.2.png`, `1.3.png`, `3.png`, `4.1.png`, `4.2.png`, `5.1.png`, `5.2.png`, `6.png`, `7.2.png`, `7.3.png`, `7.4.png` | Executes specific NSE modules for deeper analysis |
+
+---
+
+### 🖼️ Embedded Screenshots
+
+#### 🔍 Ping Sweep  
+![Ping Sweep](./screenshots/nmap-lab/ping-sweep.png)
+
+#### 🧠 OS Detection  
+![OS Detection 1](./screenshots/nmap-lab/os-det-1.png)  
+![OS Detection 2](./screenshots/nmap-lab/os-det-2.png)
+
+#### 📦 Service Version Detection  
+![Service Version 1](./screenshots/nmap-lab/svs-1.png)  
+![Service Version 2](./screenshots/nmap-lab/svs-2.png)  
+![Service Version 3](./screenshots/nmap-lab/svs-3.png)  
+![Service Version 4](./screenshots/nmap-lab/svs-4.png)
+
+#### 🚀 Aggressive Scan  
+![Aggressive Scan 1](./screenshots/nmap-lab/agg-scan-1.png)  
+![Aggressive Scan 2](./screenshots/nmap-lab/agg-scan-2.png)  
+![Aggressive Scan 3](./screenshots/nmap-lab/agg-scan-3.png)  
+![Aggressive Scan 4](./screenshots/nmap-lab/agg-scan-4.png)
+
+#### 🔁 Full Port Scan  
+![Full Port Scan 1](./screenshots/nmap-lab/full-portscan-1.png)  
+![Full Port Scan 2](./screenshots/nmap-lab/full-portscan-2.png)  
+![Full Port Scan 3](./screenshots/nmap-lab/full-portscan-3.png)
+
+#### 🧩 NSE Script Results  
+![NSE Script 1.1](./screenshots/nmap-lab/nse-script-1.1.png)  
+![NSE Script 1.2](./screenshots/nmap-lab/nse-script-1.2.png)  
+![NSE Script 1.3](./screenshots/nmap-lab/nse-script-1.3.png)  
+![NSE Script 2.1](./screenshots/nmap-lab/nse-script-2.1.png)  
+![NSE Script 2.2](./screenshots/nmap-lab/nse-script-2.2.png)  
+![NSE Script 2.3](./screenshots/nmap-lab/nse-script-2.3.png)  
+![NSE Script 2.4](./screenshots/nmap-lab/nse-script-2.4.png)  
+![NSE Script 3](./screenshots/nmap-lab/nse-script-3.png)  
+![NSE Script 4.1](./screenshots/nmap-lab/nse-script-4.1.png)  
+![NSE Script 4.2](./screenshots/nmap-lab/nse-script-4.2.png)  
+![NSE Script 5.1](./screenshots/nmap-lab/nse-script-5.1.png)  
+![NSE Script 5.2](./screenshots/nmap-lab/nse-script-5.2.png)  
+![NSE Script 6](./screenshots/nmap-lab/nse-script-6.png)  
+![NSE Script 7.1](./screenshots/nmap-lab/nse-script-7.1.png)  
+![NSE Script 7.2](./screenshots/nmap-lab/nse-script-7.2.png)  
+![NSE Script 7.3](./screenshots/nmap-lab/nse-script-7.3.png)  
+![NSE Script 7.4](./screenshots/nmap-lab/nse-script-7.4.png)
+
+
+---
+
+### 📝 Notes
+
+- All scans were executed in a controlled lab setup using VirtualBox.
+- Screenshots are stored in `/screenshots/nmap-lab/` folder.
+- This module is part of my ongoing penetration testing documentation project.
+
 
 ## ✅ Progress Tracker
 
