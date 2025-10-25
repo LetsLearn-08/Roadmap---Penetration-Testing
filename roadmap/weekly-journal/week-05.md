@@ -7,7 +7,7 @@ Nmap (Network Mapper) is a powerful tool for network reconnaissance and vulnerab
 
 📄 **Related Files**  
 - 👉 [Lab Cheatsheet](./lab-cheatsheet.md)  
-- 🖼️ [Example Screenshot](./screenshot.png)
+- 🖼️ All screenshots are stored in the [screenshots/nmap-lab](https://github.com/LetsLearn-08/Roadmap---Penetration-Testing/tree/main/screenshots/nmap-lab) folder.
 
 ---
 
