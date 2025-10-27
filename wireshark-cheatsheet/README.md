@@ -10,7 +10,6 @@ This folder includes:
 - [`shortcuts.md`](shortcuts.md) — Essential keyboard shortcuts for faster navigation
 - [`protocols.md`](protocols.md) — Breakdown of common protocols like TCP, DNS, HTTP, ICMP
 - [`tips.md`](tips.md) — Pro tips for efficient packet analysis
-- [`resources.md`](resources.md) — External links to deepen your learning
 - [`screenshots/`](screenshots/) — Annotated visuals from real lab captures
 
 ## 🧠 Why This Cheatsheet?
