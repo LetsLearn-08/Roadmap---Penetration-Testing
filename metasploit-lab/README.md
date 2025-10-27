@@ -69,7 +69,7 @@ Follow this for each target IP — includes intermediate steps.
 
 ## 📦 Advanced Guide 
 
-See [`Nmap Scan Types — Metasploitable2 Subproject`](https://github.com/LetsLearn-08/Roadmap---Penetration-Testing/blob/main/nmap-scans/README.md?plain=1) for a conceptual guide that explains:
+See [`Nmap Scan Types — Metasploitable2 Subproject`](https://github.com/LetsLearn-08/Roadmap---Penetration-Testing/blob/main/nmap-scans/README.md) for a conceptual guide that explains:
 - Scan workflows and reporting structure
 - NSE script categories and usage
 - Parsing and automation concepts
