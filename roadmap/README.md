@@ -50,16 +50,16 @@ Track my weekly progress:
 - [`Week 03`](weekly-journal/week-03.md) – Networking fundamentals and TCP/IP deep dive  
 - [`Week 04`](weekly-journal/week-04.md) – DNS, ports, and packet analysis with Wireshark  
 - [`Week 05`](weekly-journal/week-05.md) – Nmap scanning techniques and hands-on labs  
-- [`Week 06`](weekly-journal/week-06.md) – Web application testing with Burp Suite  
-- [`Week 07`](weekly-journal/week-07.md) – Exploitation basics using Metasploit  
-- [`Week 08`](weekly-journal/week-08.md) – Vulnerability scanning with Nessus  
-- [`Week 09`](weekly-journal/week-09.md) – Web server scanning using Nikto  
-- [`Week 10`](weekly-journal/week-10.md) – Social engineering with SET toolkit  
-- [`Week 11`](weekly-journal/week-11.md) – TryHackMe walkthroughs and notes  
-- [`Week 12`](weekly-journal/week-12.md) – HackTheBox challenges and writeups  
-- [`Week 13`](weekly-journal/week-13.md) – CTF prep and solving techniques  
-- [`Week 14`](weekly-journal/week-14.md) – OSCP-style lab simulation  
-- [`Week 15`](weekly-journal/week-15.md) – Review, notes cleanup, certification planning  
+- [`Week 06`](weekly-journal/week-06.md) – Tool comparison: theHarvester vs Nmap vs Netcat  
+- [`Week 07`](weekly-journal/week-07.md) –   
+- [`Week 08`](weekly-journal/week-08.md) – 
+- [`Week 09`](weekly-journal/week-09.md) – 
+- [`Week 10`](weekly-journal/week-10.md) – 
+- [`Week 11`](weekly-journal/week-11.md) – 
+- [`Week 12`](weekly-journal/week-12.md) –  
+- [`Week 13`](weekly-journal/week-13.md) –
+- [`Week 14`](weekly-journal/week-14.md) –   
+- [`Week 15`](weekly-journal/week-15.md) –  
 - [`Template`](weekly-journal/template.md) – Reusable format for future entries
 
 ---
