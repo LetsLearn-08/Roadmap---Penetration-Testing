@@ -71,7 +71,7 @@ Notes and experiments with pentesting tools, organized by attack phase:
 
 ## 🔍 Reconnaissance
 - [Nmap](nmap/overview.md) – Network scanning and discovery  
-- [Nessus](nessus/overview.md) – Vulnerability assessment and compliance scanning  
+- [Netcat](netcat/overview.md) – Command-line utility for reading/writing data across 
 - [theHarvester](theharvester/overview.md) – OSINT gathering from public sources  
 
 ---
