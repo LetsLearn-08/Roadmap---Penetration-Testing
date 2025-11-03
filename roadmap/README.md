@@ -63,19 +63,41 @@ Track my weekly progress:
 - [`Template`](weekly-journal/template.md) – Reusable format for future entries
 
 ---
+# 🧰 Tools Explored
 
-## 🧰 Tools Explored
+Notes and experiments with pentesting tools, organized by attack phase:
 
-Notes and experiments with pentesting tools:
+---
 
-- [`Nmap`](tools/nmap/overview.md) – Network scanning and discovery  
-- [`Burp Suite`](tools/burp-suite/overview.md) – Web application testing  
-- [`Metasploit`](tools/metasploit/overview.md) – Exploitation framework  
-- [`Wireshark`](tools/wireshark/overview.md) – Packet analysis and sniffing  
-- [`Nessus`](tools/nessus/overview.md) – Vulnerability assessment and compliance scanning  
-- [`Netcat`](tools/netcat/overview.md) – Command-line utility that reads and writes data across network 
-- [`SET`](tools/set/overview.md) – Social engineering attacks and phishing simulations  
-- [`Placeholder`](tools/placeholder.md) – For future tools I’ll discover
+## 🔍 Reconnaissance
+- [Nmap](nmap/overview.md) – Network scanning and discovery  
+- [Nessus](nessus/overview.md) – Vulnerability assessment and compliance scanning  
+- [theHarvester](theharvester/overview.md) – OSINT gathering from public sources  
+
+---
+
+## 📡 Scanning
+- [Wireshark](wireshark/overview.md) – Packet analysis and sniffing  
+- [Masscan](masscan/overview.md) – Fast port scanning across large ranges  
+
+---
+
+## 🔎 Enumeration
+- [Nikto](nikto/overview.md) – Web server scanning and misconfiguration detection  
+- [Gobuster](gobuster/overview.md) – Directory and DNS brute-forcing  
+- [Enum4linux](enum4linux/overview.md) – SMB enumeration on Windows systems  
+
+---
+
+## 💥 Exploitation
+- [Metasploit](metasploit/overview.md) – Exploitation framework  
+- [Burp Suite](burp-suite/overview.md) – Web application testing  
+
+---
+
+## 🧠 Post-Exploitation
+- [Hydra](hydra/overview.md) – Brute-force login attacks  
+- [John the Ripper](john-the-ripper/overview.md) – Password cracking  
 
 ---
 
