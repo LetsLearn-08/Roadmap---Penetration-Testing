@@ -19,8 +19,7 @@ Use theHarvester to perform OSINT on a target domain and extract actionable data
 - [`screenshots/`](./screenshots/)  
   Visuals of scan execution and results (e.g., basic scan, multi-source scan).
 
-- [`output/`](./output/)  
-  Saved scan results (e.g., `cyber_recon.html` from `-f` flag).
+
 
 ---
 
