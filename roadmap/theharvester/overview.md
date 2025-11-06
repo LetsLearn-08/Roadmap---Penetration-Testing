@@ -12,6 +12,19 @@
 This data helps map out the target’s digital footprint before deeper scanning or exploitation.
 
 ---
+## 📁 Contents
+- `harvester.md`: Full tool guide and usage
+- `commands.md`: Quick walkthrough
+- `cheatsheet.md`: Flag reference (optional)
+- `screenshots/`: Scan visuals
+- `output/`: Saved results
+
+## 🔗 Next Steps
+Use findings with:
+- Nmap for port scanning
+- dnsenum for DNS enumeration
+
+---
 
 ## ⚙️ Installation
 
