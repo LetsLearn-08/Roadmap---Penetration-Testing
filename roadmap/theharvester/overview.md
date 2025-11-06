@@ -19,17 +19,6 @@ Use theHarvester to perform OSINT on a target domain and extract actionable data
 - [`screenshots/`](./screenshots/)  
   Visuals of scan execution and results (e.g., basic scan, multi-source scan).
 
-
-
----
-
-## 🔗 Next Modules in Recon Workflow
-
-Use findings from theHarvester with:
-
-- [Nmap Lab](../nmap/nmap.md) – Scan IPs and ports found by theHarvester  
-- [dnsenum Lab](../dnsenum/dnsenum.md) – Enumerate DNS records and subdomains
-
 ---
 
 ## 🧠 Tips for Beginners
