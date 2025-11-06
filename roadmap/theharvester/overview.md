@@ -12,17 +12,22 @@
 This data helps map out the target’s digital footprint before deeper scanning or exploitation.
 
 ---
+# 🕵️ theHarvester – OSINT Reconnaissance Tool
+
+## 🎯 Objective
+Use theHarvester to perform OSINT on a target domain and extract actionable data (emails, subdomains, IPs) for further scanning.
+
 ## 📁 Contents
-- `harvester.md`: Full tool guide and usage
-- `commands.md`: Quick walkthrough
-- `cheatsheet.md`: Flag reference (optional)
-- `screenshots/`: Scan visuals
-- `output/`: Saved results
+- [`harvester.md`](harvester.md): Full tool guide and usage
+- [`commands.md`](commands.md): Quick walkthrough
+- [`cheatsheet.md`](cheatsheet.md): Flag reference (optional)
+- [`screenshots/`](screenshots/): Scan visuals
+- [`output/`](output/): Saved results
 
 ## 🔗 Next Steps
 Use findings with:
-- Nmap for port scanning
-- dnsenum for DNS enumeration
+- [Nmap Lab](../nmap/nmap.md)
+- [dnsenum Lab](../dnsenum/dnsenum.md)
 
 ---
 
