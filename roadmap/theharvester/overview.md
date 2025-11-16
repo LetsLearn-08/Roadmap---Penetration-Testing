@@ -35,6 +35,11 @@ Use theHarvester to perform OSINT on a target domain and extract actionable data
 OSINT tools like theHarvester are legal and powerful — but only when used ethically. Never scan or collect data from domains you don’t own or have permission to test. Always stay within your scope.
 
 
+## 📢 Connect
+
+This repo is part of my **cybersecurity learning journey**.  
+Follow me on [LinkedIn](www.linkedin.com/in/tanuja-reddy-03aa7b38a) for updates, lab walkthroughs, and progress logs.
+
 ## 🔗 Related Tools
 
 - Nmap(https://github.com/LetsLearn-08/Roadmap---Penetration-Testing/blob/main/roadmap/nmap/overview.md) – Scan IPs and ports found by theHarvester
