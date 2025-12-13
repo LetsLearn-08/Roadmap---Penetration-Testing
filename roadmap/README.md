@@ -51,8 +51,8 @@ Track my weekly progress:
 - [`Week 04`](weekly-journal/week-04.md) – DNS, ports, and packet analysis with Wireshark  
 - [`Week 05`](weekly-journal/week-05.md) – Nmap scanning techniques and hands-on labs  
 - [`Week 06`](weekly-journal/week-06.md) – Tool comparison: theHarvester vs Nmap vs Netcat  
-- [`Week 07`](weekly-journal/week-07.md) –   
-- [`Week 08`](weekly-journal/week-08.md) – 
+- [`Week 07`](weekly-journal/week-07.md) – Cryptography Fundamentals   
+- [`Week 08`](weekly-journal/week-08.md) – Websecurity Basics
 - [`Week 09`](weekly-journal/week-09.md) – 
 - [`Week 10`](weekly-journal/week-10.md) – 
 - [`Week 11`](weekly-journal/week-11.md) – 
