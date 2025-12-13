@@ -1,9 +1,8 @@
 MIT License
 
-Copyright (c) 2025 Sivangi
+Copyright (c) 2025 
 
 Permission is hereby granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, subject to inclusion of the above copyright notice.
-
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, express or implied, including but not limited to merchantability or fitness for a particular purpose.
 
 
