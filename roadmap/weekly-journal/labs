@@ -1,0 +1,91 @@
+# 🧪 Labs – WebSecurity Basic
+
+This directory contains **hands-on practice challenges** designed to simulate real CTF tasks.  
+Each lab is beginner-friendly and focuses on **one core concept** in web security, networking, or cryptography.
+
+---
+
+## 📌 Labs Included
+
+---
+
+### 🔑 Lab 1: Web Login Bypass
+**Goal:** Practice SQL Injection basics.
+
+#### Challenge
+A login form asks for:
+
+- **Username:** admin  
+- **Password:** ****
+
+Try entering the following payload:
+```
+' OR '1'='1
+```
+
+#### Explanation
+- `' OR '1'='1` always evaluates to **true**
+- This bypasses weak authentication logic
+- Demonstrates why input validation is critical
+
+### 📖 Related Notes: [Web Security Fundamentals](../docs/README.md)  
+### ✍️ Writeup: [Web Login Bypass](../writeups/README.md)
+
+---
+
+### 🌐 Lab 2: Basic Port Scan
+**Goal:** Identify open ports on a target system.
+
+#### Challenge
+Run the following command:
+```bash
+nmap -p- target.com
+```
+
+### Explanation
+
+- -p- scans all 65,535 ports
+- Helps uncover hidden or uncommon services
+- First step in reconnaissance
+
+### 📖 Related Notes: Networking Basics
+### ✍️ Writeup: Port Scan Notes
+
+### 🔏 Lab 3: Decode Base64
+
+**Goal:** Understand encoding vs encryption.
+
+#### Challenge
+
+- Decode the following string:
+```
+U2VjdXJpdHkgUm9ja3M=
+```
+- Solution
+```
+echo "U2VjdXJpdHkgUm9ja3M=" | base64 -d
+```
+- Output:
+```
+Security Rocks
+```
+### 📖 Related Notes: Cryptography Basics(https://github.com/LetsLearn-08/Roadmap---Penetration-Testing/blob/main/roadmap/weekly-journal/week-07.md)
+
+## 🎯 How to Use These Labs
+
+- Attempt each lab step by step
+- Refer to /docs for theory
+- Record your process in /writeups
+- Repeat labs until you can solve them without hints
+
+🧠 Learning Tip
+
+Break → Fix → Document
+Every mistake is a lesson. Every writeup is a memory anchor.
+
+⚠️ Disclaimer
+
+These labs are for educational and ethical practice only.
+Do not apply these techniques outside controlled or authorized environments.
+
+🔐 Practice safely. Learn deeply.
