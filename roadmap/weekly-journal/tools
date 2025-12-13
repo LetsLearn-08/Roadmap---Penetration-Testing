@@ -1,0 +1,27 @@
+# 🛠️ Tools – WebSecurity Basic
+
+This directory contains **simple scripts and utilities** to help beginners practice reconnaissance, scanning, and analysis for CTFs.
+
+---
+
+## 📌 What You’ll Find Here
+- 🔍 **Scanning scripts** → Basic wrappers for Nmap and other tools
+- 📡 **Enumeration helpers** → Scripts to gather service and configuration details
+- 🧩 **Utility scripts** → Small helpers for decoding, encoding, and automation
+
+---
+
+## 🎯 How to Use These Tools
+- Run scripts directly from the command line
+- Modify them to fit your own workflow
+- Use them during labs and CTFs for quick testing
+
+Example:
+```bash
+./nmap_scan.sh target.com
+```
+## 🧠 Learning Tip
+Start simple. Understand what each script does before modifying it. Small tools build big confidence.
+
+## ⚠️ Disclaimer
+All tools are for educational and ethical learning only. Do not use them on systems without explicit permission.
