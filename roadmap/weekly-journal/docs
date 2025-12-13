@@ -1,0 +1,50 @@
+# 📘 Documentation – WebSecurity Basic
+
+This directory contains **beginner-friendly notes and guides** to help you understand core cybersecurity concepts used in web security and CTFs.
+
+---
+
+## 📌 What You’ll Learn Here
+
+- 🌐 **Networking Basics**
+  - HTTP / HTTPS
+  - DNS, IP, Ports
+  - Client–Server model
+
+- 🔐 **Web Security Fundamentals**
+  - Common vulnerabilities (SQLi, XSS, CSRF)
+  - Authentication & session basics
+  - Secure coding principles
+
+- 🔑 **Cryptography Basics**
+  - Hashing vs Encryption
+  - Symmetric & Asymmetric crypto
+  - Encoding vs Encryption
+
+---
+
+## 🎯 How to Use These Docs
+
+- Read **before** attempting labs  
+- Refer during CTFs for quick recall  
+- Update notes with your own understanding  
+- Link findings from `/labs` and `/writeups`
+
+---
+
+## 🧠 Learning Tip
+
+> Learn → Practice → Break → Fix → Document  
+Documentation strengthens memory and mastery.
+
+---
+
+## ⚠️ Disclaimer
+
+All documentation is for **educational and ethical learning only**.  
+Do not apply techniques on systems without permission.
+
+
+
+🔐 *Knowledge is armor. Practice is power.*
+
