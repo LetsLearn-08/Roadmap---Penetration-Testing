@@ -24,7 +24,6 @@ This repo provides starter scripts, notes, and exercises to help learners build 
 - **[docs](docs/)** → Beginner-friendly notes & guides (networking, cryptography, web security).
 - **[tools](tools/)** → Simple scripts for scanning, enumeration, and analysis.
 - **[labs](labs/)** → Practice challenges and walkthroughs.
-- **[writeups](writeups/)** → Solutions and explanations for completed CTF tasks.
 
 ---
 
@@ -35,13 +34,7 @@ git clone https://github.com/your-username/wesecurity-basic.git
 cd wesecurity-basic
 ````
 
-Today
-readme of wesecurity basic to upload in rerepo to perform ctf
-Got it, Sivangi 👊. You want a README.md draft for a repo called wesecurity-basic that sets the stage for practicing and performing CTF challenges. Since this is for uploading into your GitHub repo, I’ll make it repo‑ready, beginner‑friendly, and structured so recruiters or teammates immediately see the purpose and usage.
 
-Here’s a polished draft you can drop straight into your repo:
-
-markdown
 # WeSecurity Basic 🔐
 
 A lightweight repository designed for **basic cybersecurity practice** and **Capture The Flag (CTF) preparation**.  
