@@ -17,6 +17,8 @@ Welcome to my personal cybersecurity lab! This repo documents my journey as a BC
 - [Nmap Scans](./nmap-scans/README.md)
 - [Metasploit Lab](./metasploit-lab/README.md)
 - [Wireshark Cheatsheet](./wireshark-cheatsheet/README.md)
+- [Windows VM Setup](./windows-vm-setup/README.md)
+- [Splunk VM Setup](./splunk-vm-setup/README.md)
 
 ## 🤝 Connect
 
