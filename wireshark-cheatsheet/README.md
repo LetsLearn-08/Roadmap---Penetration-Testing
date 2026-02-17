@@ -43,5 +43,5 @@ If you're documenting your cybersecurity journey, feel free to fork this repo or
 
 ---
 
-📌 Maintained by [TANUJA](https://github.com/yourusername)  
+📌 Maintained by [TANUJA](https://github.com/LetsLearn-08)  
 🎓 BCA Student | Cybersecurity Enthusiast 
